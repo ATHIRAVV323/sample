@@ -18,7 +18,8 @@ if(mysqli_query($con,$sql))
 	header("location:registration.php");
 }
 
-
+echo "$a";
+echo "$b";
 ?>
 </body>
 </html>
